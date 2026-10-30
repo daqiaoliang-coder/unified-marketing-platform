@@ -1,0 +1,15 @@
+{
+  "transactionId": "tx-demo",
+  "expectedPayable": 13000,
+  "cart": {
+    "cartId": "cart-demo",
+    "customerId": "customer-demo",
+    "orders": [{
+      "orderId": "order-demo",
+      "items": [
+        {"lineId": "line-1", "skuId": "sku-a", "quantity": 1, "unitPrice": 10000},
+        {"lineId": "line-2", "skuId": "sku-b", "quantity": 1, "unitPrice": 5000}
+      ]
+    }]
+  }
+}

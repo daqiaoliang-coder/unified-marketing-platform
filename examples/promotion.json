@@ -1,0 +1,25 @@
+{
+  "id": "coupon-20",
+  "name": "满100元减20元并赠送权益",
+  "type": "COUPON",
+  "scope": "ORDER",
+  "priority": 100,
+  "condition": {
+    "minSpend": 10000,
+    "minQuantity": 1,
+    "skuIds": [],
+    "customerIds": [],
+    "startsAt": null,
+    "endsAt": null
+  },
+  "discount": {"kind": "AMOUNT_OFF", "value": 2000},
+  "stacking": {
+    "allowSameType": false,
+    "compatibleTypes": ["FULL_REDUCTION", "TIMED_DISCOUNT"],
+    "exclusiveGroup": "order-coupon"
+  },
+  "fundingBps": {"merchant": 8000, "platform": 2000},
+  "resourceId": "coupon-stock",
+  "resourceUnits": 1,
+  "benefit": {"coins": 100, "giftSku": "gift-cup", "giftQuantity": 1}
+}
